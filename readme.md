@@ -4,7 +4,7 @@
 ![Preview01](screenshots/splash.png)
 
 ### Home Screen :
-![Preview02](sreenshots/home_v2.4.1.0.png)
+![Preview02](screenshots/home_v2410.png)
 
 
 # First Notice!
