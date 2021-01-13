@@ -10,13 +10,15 @@
 # First Notice!
 
 When you're planning to deploy the system locally, 
+
 Please ensure to Change the Region & Global Settings 
+
 either **Format** and **Location** set to **Indonesian** . 
 
 That's it!
 
 
-Thanks for everything! And if you need additional target to be scrapped, please contact our official email for more details!
+Thanks for everything! And if you need additional target to be adjusted, please contact our official email for more details!
 
 *happy medic!*
 
