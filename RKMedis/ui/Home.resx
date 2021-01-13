@@ -118,72 +118,72 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="petugasBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>343, 56</value>
+    <value>488, 56</value>
   </metadata>
   <metadata name="_db_usedDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>635, 17</value>
+    <value>17, 56</value>
   </metadata>
   <metadata name="_db_usedDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>635, 17</value>
+    <value>17, 56</value>
   </metadata>
   <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>149, 17</value>
   </metadata>
   <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>132, 17</value>
+    <value>264, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ToolStripExportButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAoPSURBVFhHzVZpVJMHFqWdaU+1PVCwVFxqwWpbLNXW1h5r
-        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
+        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
 </value>
   </data>
   <metadata name="StatusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>239, 17</value>
+    <value>371, 17</value>
   </metadata>
   <metadata name="ColumnDokter_Check.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -257,43 +257,40 @@
   <metadata name="ColumnPetugas_Telp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_Check.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_Check.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_NoMedRek.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_Tanggal.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_Status.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_NoMedRek.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_TanggalBuat.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_Nama.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_Nama.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_Keluhan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_TanggalLahir.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_Diagnosa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_TempatLahir.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_TekananDarah.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_Kelamin.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_BeratBadan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_Alamat.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_Tindakan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_Telp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_Visite.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnPasien_TotalKunjungan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnPasien_Catatan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColumnKunjungan_KunjunganLagi.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="ButtonHome_ReportDokter.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -566,6 +563,45 @@
         fvtP4eHhNuERETLxWnI2MvKH+X94v3DOSy9tEl+/Lvi/VsCcOf8FgmteffGDhXUAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="ColumnPasien_Check.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_NoMedRek.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_Status.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_TanggalBuat.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_Nama.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_TanggalLahir.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_TempatLahir.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_Kelamin.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_Alamat.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_Telp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_TotalKunjungan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnPasien_Catatan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="ColumnPoliklinik_Check.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -600,61 +636,25 @@
     <value>True</value>
   </metadata>
   <metadata name="ColumnPoliklinik_NamaPetugas.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_Check.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_Tanggal.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_NoMedRek.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_Nama.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_Keluhan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_Diagnosa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_TekananDarah.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_BeratBadan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_Tindakan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_Visite.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnKunjungan_KunjunganLagi.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="SaveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>356, 17</value>
+    <value>488, 17</value>
   </metadata>
   <metadata name="OpenFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>493, 17</value>
+    <value>625, 17</value>
   </metadata>
   <metadata name="kunjunganBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 134</value>
   </metadata>
   <metadata name="dokterBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
+    <value>162, 56</value>
   </metadata>
   <metadata name="dokterTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>183, 56</value>
+    <value>328, 56</value>
   </metadata>
   <metadata name="petugasTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>517, 56</value>
+    <value>662, 56</value>
   </metadata>
   <metadata name="poliklinikBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 95</value>

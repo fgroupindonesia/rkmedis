@@ -24,9 +24,9 @@ Partial Class Home
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Home))
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim ReportDataSource10 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim ReportDataSource2 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
         Me.petugasBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me._db_usedDataSet = New RKMedis._db_usedDataSet()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
@@ -286,6 +286,8 @@ Partial Class Home
         Me.Button_ResetKunjungan = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel6 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.GroupBox12 = New System.Windows.Forms.GroupBox()
+        Me.FlowKunjunganNavigasi = New System.Windows.Forms.FlowLayoutPanel()
         Me.DataGridView_Kunjungan = New System.Windows.Forms.DataGridView()
         Me.ColumnKunjungan_Check = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.ColumnKunjungan_ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -324,8 +326,6 @@ Partial Class Home
         Me.pasienBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.pasienTableAdapter = New RKMedis._db_usedDataSetTableAdapters.pasienTableAdapter()
         Me.kunjunganTableAdapter = New RKMedis._db_usedDataSetTableAdapters.kunjunganTableAdapter()
-        Me.GroupBox12 = New System.Windows.Forms.GroupBox()
-        Me.FlowKunjunganNavigasi = New System.Windows.Forms.FlowLayoutPanel()
         CType(Me.petugasBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me._db_usedDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
@@ -433,6 +433,7 @@ Partial Class Home
         Me.TableLayoutPanel11.SuspendLayout()
         Me.FlowLayoutPanel5.SuspendLayout()
         Me.FlowLayoutPanel6.SuspendLayout()
+        Me.GroupBox12.SuspendLayout()
         CType(Me.DataGridView_Kunjungan, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabReporting.SuspendLayout()
         CType(Me.SplitContainer11, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -443,7 +444,6 @@ Partial Class Home
         CType(Me.dokterBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.poliklinikBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pasienBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox12.SuspendLayout()
         Me.SuspendLayout()
         '
         'petugasBindingSource
@@ -1295,7 +1295,7 @@ Partial Class Home
         Me.TableLayoutPanel16.ColumnCount = 3
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.52488!))
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.47512!))
-        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 344.0!))
+        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 345.0!))
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel17, 0, 0)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel18, 1, 0)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel19, 2, 0)
@@ -1322,7 +1322,7 @@ Partial Class Home
         Me.TableLayoutPanel17.RowCount = 1
         Me.TableLayoutPanel17.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel17.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel17.Size = New System.Drawing.Size(332, 195)
+        Me.TableLayoutPanel17.Size = New System.Drawing.Size(331, 195)
         Me.TableLayoutPanel17.TabIndex = 0
         '
         'GroupBox2
@@ -1330,7 +1330,7 @@ Partial Class Home
         Me.GroupBox2.Controls.Add(Me.TableLayoutPanel2)
         Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(83, 3)
+        Me.GroupBox2.Location = New System.Drawing.Point(82, 3)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(246, 189)
         Me.GroupBox2.TabIndex = 0
@@ -1415,7 +1415,7 @@ Partial Class Home
         Me.PictureHome_Dokter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.PictureHome_Dokter.Location = New System.Drawing.Point(3, 3)
         Me.PictureHome_Dokter.Name = "PictureHome_Dokter"
-        Me.PictureHome_Dokter.Size = New System.Drawing.Size(74, 189)
+        Me.PictureHome_Dokter.Size = New System.Drawing.Size(73, 189)
         Me.PictureHome_Dokter.TabIndex = 2
         Me.PictureHome_Dokter.TabStop = False
         '
@@ -1427,7 +1427,7 @@ Partial Class Home
         Me.TableLayoutPanel18.Controls.Add(Me.GroupBox1, 1, 0)
         Me.TableLayoutPanel18.Controls.Add(Me.PictureHome_Petugas, 0, 0)
         Me.TableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel18.Location = New System.Drawing.Point(341, 3)
+        Me.TableLayoutPanel18.Location = New System.Drawing.Point(340, 3)
         Me.TableLayoutPanel18.Name = "TableLayoutPanel18"
         Me.TableLayoutPanel18.RowCount = 1
         Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -1536,11 +1536,11 @@ Partial Class Home
         Me.TableLayoutPanel19.Controls.Add(Me.GroupBox10, 1, 0)
         Me.TableLayoutPanel19.Controls.Add(Me.PictureBox1, 0, 0)
         Me.TableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel19.Location = New System.Drawing.Point(658, 3)
+        Me.TableLayoutPanel19.Location = New System.Drawing.Point(657, 3)
         Me.TableLayoutPanel19.Name = "TableLayoutPanel19"
         Me.TableLayoutPanel19.RowCount = 1
         Me.TableLayoutPanel19.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel19.Size = New System.Drawing.Size(339, 195)
+        Me.TableLayoutPanel19.Size = New System.Drawing.Size(340, 195)
         Me.TableLayoutPanel19.TabIndex = 2
         '
         'GroupBox10
@@ -1548,7 +1548,7 @@ Partial Class Home
         Me.GroupBox10.Controls.Add(Me.TableLayoutPanel10)
         Me.GroupBox10.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox10.Location = New System.Drawing.Point(108, 3)
+        Me.GroupBox10.Location = New System.Drawing.Point(109, 3)
         Me.GroupBox10.Name = "GroupBox10"
         Me.GroupBox10.Size = New System.Drawing.Size(228, 189)
         Me.GroupBox10.TabIndex = 0
@@ -1633,7 +1633,7 @@ Partial Class Home
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(99, 189)
+        Me.PictureBox1.Size = New System.Drawing.Size(100, 189)
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
@@ -1649,7 +1649,7 @@ Partial Class Home
         Me.TableLayoutPanel20.Name = "TableLayoutPanel20"
         Me.TableLayoutPanel20.RowCount = 1
         Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel20.Size = New System.Drawing.Size(332, 196)
+        Me.TableLayoutPanel20.Size = New System.Drawing.Size(331, 196)
         Me.TableLayoutPanel20.TabIndex = 3
         '
         'GroupBox3
@@ -1659,7 +1659,7 @@ Partial Class Home
         Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox3.Location = New System.Drawing.Point(97, 3)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(232, 190)
+        Me.GroupBox3.Size = New System.Drawing.Size(231, 190)
         Me.GroupBox3.TabIndex = 0
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Poliklinik"
@@ -1680,7 +1680,7 @@ Partial Class Home
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 31.50685!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 68.49315!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 68.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(226, 165)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(225, 165)
         Me.TableLayoutPanel3.TabIndex = 2
         '
         'Label_JumlahDataPoliklinik
@@ -1688,7 +1688,7 @@ Partial Class Home
         Me.Label_JumlahDataPoliklinik.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label_JumlahDataPoliklinik.AutoSize = True
         Me.Label_JumlahDataPoliklinik.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Label_JumlahDataPoliklinik.Location = New System.Drawing.Point(116, 8)
+        Me.Label_JumlahDataPoliklinik.Location = New System.Drawing.Point(115, 8)
         Me.Label_JumlahDataPoliklinik.Name = "Label_JumlahDataPoliklinik"
         Me.Label_JumlahDataPoliklinik.Size = New System.Drawing.Size(107, 13)
         Me.Label_JumlahDataPoliklinik.TabIndex = 1
@@ -1701,7 +1701,7 @@ Partial Class Home
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.Label7.Location = New System.Drawing.Point(3, 8)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(107, 13)
+        Me.Label7.Size = New System.Drawing.Size(106, 13)
         Me.Label7.TabIndex = 0
         Me.Label7.Text = "Total :"
         '
@@ -1713,7 +1713,7 @@ Partial Class Home
         Me.ButtonHome_AddPoliklinik.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.ButtonHome_AddPoliklinik.Location = New System.Drawing.Point(3, 44)
         Me.ButtonHome_AddPoliklinik.Name = "ButtonHome_AddPoliklinik"
-        Me.ButtonHome_AddPoliklinik.Size = New System.Drawing.Size(107, 38)
+        Me.ButtonHome_AddPoliklinik.Size = New System.Drawing.Size(106, 38)
         Me.ButtonHome_AddPoliklinik.TabIndex = 2
         Me.ButtonHome_AddPoliklinik.Text = "Add Data"
         Me.ButtonHome_AddPoliklinik.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1727,7 +1727,7 @@ Partial Class Home
         Me.ButtonHome_ReportPoliklinik.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.ButtonHome_ReportPoliklinik.Location = New System.Drawing.Point(3, 111)
         Me.ButtonHome_ReportPoliklinik.Name = "ButtonHome_ReportPoliklinik"
-        Me.ButtonHome_ReportPoliklinik.Size = New System.Drawing.Size(107, 38)
+        Me.ButtonHome_ReportPoliklinik.Size = New System.Drawing.Size(106, 38)
         Me.ButtonHome_ReportPoliklinik.TabIndex = 3
         Me.ButtonHome_ReportPoliklinik.Text = "Report"
         Me.ButtonHome_ReportPoliklinik.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1754,7 +1754,7 @@ Partial Class Home
         Me.TableLayoutPanel21.Controls.Add(Me.GroupBox4, 1, 0)
         Me.TableLayoutPanel21.Controls.Add(Me.PictureHome_Pasien, 0, 0)
         Me.TableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel21.Location = New System.Drawing.Point(341, 204)
+        Me.TableLayoutPanel21.Location = New System.Drawing.Point(340, 204)
         Me.TableLayoutPanel21.Name = "TableLayoutPanel21"
         Me.TableLayoutPanel21.RowCount = 1
         Me.TableLayoutPanel21.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -2342,16 +2342,16 @@ Partial Class Home
         Me.DataGridView_Pasien.ColumnHeadersHeight = 35
         Me.DataGridView_Pasien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
         Me.DataGridView_Pasien.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ColumnPasien_Check, Me.ColumnPasien_ID, Me.ColumnPasien_NoMedRek, Me.ColumnPasien_Status, Me.ColumnPasien_TanggalBuat, Me.ColumnPasien_Nama, Me.ColumnPasien_TanggalLahir, Me.ColumnPasien_TempatLahir, Me.ColumnPasien_Kelamin, Me.ColumnPasien_Alamat, Me.ColumnPasien_Telp, Me.ColumnPasien_TotalKunjungan, Me.ColumnPasien_Catatan})
-        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle19.Format = "D"
-        DataGridViewCellStyle19.NullValue = Nothing
-        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridView_Pasien.DefaultCellStyle = DataGridViewCellStyle19
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle4.Format = "D"
+        DataGridViewCellStyle4.NullValue = Nothing
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridView_Pasien.DefaultCellStyle = DataGridViewCellStyle4
         Me.DataGridView_Pasien.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView_Pasien.Location = New System.Drawing.Point(0, 0)
         Me.DataGridView_Pasien.Name = "DataGridView_Pasien"
@@ -3168,7 +3168,6 @@ Partial Class Home
         'SplitContainer10
         '
         Me.SplitContainer10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer10.IsSplitterFixed = True
         Me.SplitContainer10.Location = New System.Drawing.Point(0, 0)
         Me.SplitContainer10.Name = "SplitContainer10"
         Me.SplitContainer10.Orientation = System.Windows.Forms.Orientation.Horizontal
@@ -3181,7 +3180,7 @@ Partial Class Home
         '
         Me.SplitContainer10.Panel2.Controls.Add(Me.DataGridView_Kunjungan)
         Me.SplitContainer10.Size = New System.Drawing.Size(720, 597)
-        Me.SplitContainer10.SplitterDistance = 93
+        Me.SplitContainer10.SplitterDistance = 134
         Me.SplitContainer10.TabIndex = 0
         '
         'TableLayoutPanel11
@@ -3194,9 +3193,9 @@ Partial Class Home
         Me.TableLayoutPanel11.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel11.Name = "TableLayoutPanel11"
         Me.TableLayoutPanel11.RowCount = 2
-        Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel11.Size = New System.Drawing.Size(720, 93)
+        Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 37.31343!))
+        Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 62.68657!))
+        Me.TableLayoutPanel11.Size = New System.Drawing.Size(720, 134)
         Me.TableLayoutPanel11.TabIndex = 4
         '
         'FlowLayoutPanel5
@@ -3208,7 +3207,7 @@ Partial Class Home
         Me.FlowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FlowLayoutPanel5.Location = New System.Drawing.Point(3, 3)
         Me.FlowLayoutPanel5.Name = "FlowLayoutPanel5"
-        Me.FlowLayoutPanel5.Size = New System.Drawing.Size(714, 40)
+        Me.FlowLayoutPanel5.Size = New System.Drawing.Size(714, 44)
         Me.FlowLayoutPanel5.TabIndex = 4
         '
         'Button_AddKunjungan
@@ -3264,9 +3263,9 @@ Partial Class Home
         Me.FlowLayoutPanel6.Controls.Add(Me.Label6)
         Me.FlowLayoutPanel6.Controls.Add(Me.GroupBox12)
         Me.FlowLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowLayoutPanel6.Location = New System.Drawing.Point(3, 49)
+        Me.FlowLayoutPanel6.Location = New System.Drawing.Point(3, 53)
         Me.FlowLayoutPanel6.Name = "FlowLayoutPanel6"
-        Me.FlowLayoutPanel6.Size = New System.Drawing.Size(714, 41)
+        Me.FlowLayoutPanel6.Size = New System.Drawing.Size(714, 78)
         Me.FlowLayoutPanel6.TabIndex = 5
         '
         'Label6
@@ -3281,25 +3280,46 @@ Partial Class Home
         Me.Label6.Text = "Data Kunjungan"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
+        'GroupBox12
+        '
+        Me.GroupBox12.Controls.Add(Me.FlowKunjunganNavigasi)
+        Me.GroupBox12.Location = New System.Drawing.Point(204, 3)
+        Me.GroupBox12.Name = "GroupBox12"
+        Me.GroupBox12.Size = New System.Drawing.Size(485, 65)
+        Me.GroupBox12.TabIndex = 2
+        Me.GroupBox12.TabStop = False
+        Me.GroupBox12.Text = "Halaman"
+        '
+        'FlowKunjunganNavigasi
+        '
+        Me.FlowKunjunganNavigasi.AutoScroll = True
+        Me.FlowKunjunganNavigasi.AutoSize = True
+        Me.FlowKunjunganNavigasi.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.FlowKunjunganNavigasi.Location = New System.Drawing.Point(3, 16)
+        Me.FlowKunjunganNavigasi.Name = "FlowKunjunganNavigasi"
+        Me.FlowKunjunganNavigasi.Size = New System.Drawing.Size(479, 46)
+        Me.FlowKunjunganNavigasi.TabIndex = 0
+        Me.FlowKunjunganNavigasi.WrapContents = False
+        '
         'DataGridView_Kunjungan
         '
         Me.DataGridView_Kunjungan.AllowUserToAddRows = False
         Me.DataGridView_Kunjungan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView_Kunjungan.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ColumnKunjungan_Check, Me.ColumnKunjungan_ID, Me.ColumnKunjungan_Tanggal, Me.ColumnKunjungan_NoMedRek, Me.ColumnKunjungan_Nama, Me.ColumnKunjungan_Keluhan, Me.ColumnKunjungan_Diagnosa, Me.ColumnKunjungan_TekananDarah, Me.ColumnKunjungan_BeratBadan, Me.ColumnKunjungan_Tindakan, Me.ColumnKunjungan_Visite, Me.ColumnKunjungan_KunjunganLagi})
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle20.Format = "D"
-        DataGridViewCellStyle20.NullValue = Nothing
-        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridView_Kunjungan.DefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle3.Format = "D"
+        DataGridViewCellStyle3.NullValue = Nothing
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridView_Kunjungan.DefaultCellStyle = DataGridViewCellStyle3
         Me.DataGridView_Kunjungan.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView_Kunjungan.Location = New System.Drawing.Point(0, 0)
         Me.DataGridView_Kunjungan.Name = "DataGridView_Kunjungan"
-        Me.DataGridView_Kunjungan.Size = New System.Drawing.Size(720, 500)
+        Me.DataGridView_Kunjungan.Size = New System.Drawing.Size(720, 459)
         Me.DataGridView_Kunjungan.TabIndex = 0
         '
         'ColumnKunjungan_Check
@@ -3511,9 +3531,9 @@ Partial Class Home
         'ReportViewer1
         '
         Me.ReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
-        ReportDataSource10.Name = "DataSet1"
-        ReportDataSource10.Value = Me.petugasBindingSource
-        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource10)
+        ReportDataSource2.Name = "DataSet1"
+        ReportDataSource2.Value = Me.petugasBindingSource
+        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource2)
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "RKMedis.ReportPetugas.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(0, 0)
         Me.ReportViewer1.Name = "ReportViewer1"
@@ -3563,24 +3583,6 @@ Partial Class Home
         'kunjunganTableAdapter
         '
         Me.kunjunganTableAdapter.ClearBeforeFill = True
-        '
-        'GroupBox12
-        '
-        Me.GroupBox12.Controls.Add(Me.FlowKunjunganNavigasi)
-        Me.GroupBox12.Location = New System.Drawing.Point(204, 3)
-        Me.GroupBox12.Name = "GroupBox12"
-        Me.GroupBox12.Size = New System.Drawing.Size(485, 37)
-        Me.GroupBox12.TabIndex = 2
-        Me.GroupBox12.TabStop = False
-        Me.GroupBox12.Text = "Halaman"
-        '
-        'FlowKunjunganNavigasi
-        '
-        Me.FlowKunjunganNavigasi.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowKunjunganNavigasi.Location = New System.Drawing.Point(3, 16)
-        Me.FlowKunjunganNavigasi.Name = "FlowKunjunganNavigasi"
-        Me.FlowKunjunganNavigasi.Size = New System.Drawing.Size(479, 18)
-        Me.FlowKunjunganNavigasi.TabIndex = 0
         '
         'Home
         '
@@ -3719,6 +3721,8 @@ Partial Class Home
         Me.TableLayoutPanel11.ResumeLayout(False)
         Me.FlowLayoutPanel5.ResumeLayout(False)
         Me.FlowLayoutPanel6.ResumeLayout(False)
+        Me.GroupBox12.ResumeLayout(False)
+        Me.GroupBox12.PerformLayout()
         CType(Me.DataGridView_Kunjungan, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabReporting.ResumeLayout(False)
         Me.SplitContainer11.Panel1.ResumeLayout(False)
@@ -3730,7 +3734,6 @@ Partial Class Home
         CType(Me.dokterBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.poliklinikBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pasienBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox12.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -3987,7 +3990,6 @@ Partial Class Home
     Friend WithEvents TextBoxParameter1 As System.Windows.Forms.TextBox
     Friend WithEvents ButtonRefreshReporting As System.Windows.Forms.Button
     Friend WithEvents Label44 As System.Windows.Forms.Label
-    Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
     Friend WithEvents ColumnPasien_Check As System.Windows.Forms.DataGridViewCheckBoxColumn
     Friend WithEvents ColumnPasien_ID As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents ColumnPasien_NoMedRek As System.Windows.Forms.DataGridViewTextBoxColumn
@@ -4034,4 +4036,5 @@ Partial Class Home
     Friend WithEvents FlowPasienNavigasi As System.Windows.Forms.FlowLayoutPanel
     Friend WithEvents GroupBox12 As System.Windows.Forms.GroupBox
     Friend WithEvents FlowKunjunganNavigasi As System.Windows.Forms.FlowLayoutPanel
+    Private WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
 End Class
