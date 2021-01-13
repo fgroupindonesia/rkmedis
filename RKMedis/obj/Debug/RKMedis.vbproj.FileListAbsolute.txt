@@ -1,0 +1,32 @@
+C:\Users\asus\AppData\Local\Temporary Projects\RKMedis\bin\Debug\RKMedis.exe.config
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\reporting\ReportKunjungan.rdlc
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\reporting\ReportPasien.rdlc
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\reporting\ReportPoliklinik.rdlc
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\reporting\ReportDokter.rdlc
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\reporting\ReportPetugas.rdlc
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\RKMedis.exe.config
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\RKMedis.exe
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\RKMedis.pdb
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\RKMedis.xml
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\System.Data.SQLite.dll
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\bin\Debug\System.Data.SQLite.xml
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\obj\Debug\RKMedis.LoadingScreen.resources
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\obj\Debug\RKMedis.Home.resources
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\obj\Debug\RKMedis.Login.resources
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\obj\Debug\RKMedis.Resources.resources
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\obj\Debug\RKMedis.UserProfile.resources
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\obj\Debug\RKMedis.vbproj.GenerateResource.Cache
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\obj\Debug\RdlCompile.cache
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\obj\Debug\RdlCompile.compiled
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\obj\Debug\RKMedis.exe
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\obj\Debug\RKMedis.xml
+E:\temp\Projects\Visual Studio 2013\RKMedis\RKMedis\obj\Debug\RKMedis.pdb
+D:\vstudio\2013\RKMedis\RKMedis\bin\Debug\RKMedis.exe.config
+D:\vstudio\2013\RKMedis\RKMedis\obj\Debug\RKMedis.exe
+D:\vstudio\2013\RKMedis\RKMedis\obj\Debug\RKMedis.xml
+D:\vstudio\2013\RKMedis\RKMedis\obj\Debug\RKMedis.pdb
